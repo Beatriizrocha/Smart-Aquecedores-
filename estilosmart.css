@@ -1,0 +1,245 @@
+/* Estilos gerais do site */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Outros estilos gerais aqui */
+}
+
+header {
+    /* Estilos para o cabeçalho */
+    background-image: url(https://smartaquecedores.com.br/storage/slides/aquecedor-de-agua-a-gas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Ajuste a altura conforme necessário */
+    color: #f53131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.titulo h1 {
+    margin-right: 130px;
+    height: 300px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.titulo h2 {
+    height: 70px;
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: 90px;
+}
+
+.saibaMaisBtn {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 15px;
+    background-color: #b10f0f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+.saibaMaisBtn:hover {
+    background-color: #e63023;
+}
+
+main {
+    /* Estilos para o conteúdo principal */
+    padding: 40px;
+}
+
+.titulo-centralizado {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  font-weight: normal;
+  color: #3a2121;
+}
+
+.produtoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produto {
+    text-align: center;
+    background-color: #f5f5f5; /* Cor de fundo para a caixa do produto */
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #e63023;
+}
+
+.produto p {
+    font-size: 16px;
+}
+
+  
+  /* Estilo do rodapé */
+  #footerBlock {
+    background-color: #fd7e08;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rodape-21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col1-rod, .col2-rod, .col3-rod {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .col1-rod b, .col2-rod h3, .col3-rod b {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .col1-rod ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .col1-rod li {
+    margin-bottom: 8px;
+  }
+  
+  .col1-rod li span {
+    font-weight: bold;
+  }
+  
+  .col1-rod a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .col1-rod a:hover {
+    color: #b10f0f;
+  }
+  
+  .col2-rod p {
+    text-align: justify;
+  }
+  
+  .col2-rod a {
+    color: #0f0b0b;
+    text-decoration: none;
+  }
+  
+  .col2-rod a:hover {
+    text-decoration: underline;
+  }
+  
+  .col3-rod form {
+    margin-top: 20px;
+  }
+  
+  .formulario p {
+    margin-bottom: 15px;
+  }
+  
+  .floatlabel-wrapper {
+    position: relative;
+  }
+  
+  .floatlabel {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .floatlabel:focus {
+    outline: none;
+    border-color: #b10f0f;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #b10f0f;
+  }
+  
+  .botao-form-fast input[type="submit"] {
+    background-color: #b10f0f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-form-fast input[type="submit"]:hover {
+    background-color: #900e0e;
+  }
+  
+  .redes a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  /* Estilo para o link "Continuar lendo..." */
+  .col2-rod a.continuar-lendo {
+    display: block;
+    color: #d8ebf0;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para o texto de direitos autorais */
+  footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para links padrão */
+  a {
+    color: #b10f0f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
